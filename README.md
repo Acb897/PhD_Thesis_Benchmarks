@@ -6,6 +6,8 @@ It performs two targeted fixes:
 
 - Percent-escapes illegal or problematic characters inside IRIs (`<…>`)
 - Merges multiline statements into single-line triples (very common in broken crawler dumps)
+## Datasets
+The datasets have been published using Zenodo: https://doi.org/10.5281/zenodo.18715725 
 
 ## Features
 
