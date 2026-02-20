@@ -141,7 +141,7 @@ def fix_iri(line: str, changes: Dict[str, Any], line_number: int) -> str:
 # Validation
 # ──────────────────────────────────────────────────────────────────────────────
 
-def validate_with_rapper(file_path: str, timeout: int = 30) -> bool:
+def validate_with_rapper(file_path: str, timeout: int = 300) -> bool:
     """
     Check whether an RDF file is syntactically valid using the rapper tool.
 
